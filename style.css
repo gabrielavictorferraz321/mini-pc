@@ -1,0 +1,12 @@
+:root {
+    --primary: #0f172a;
+    --secundary: #696969;
+    --acent: #836FFF;
+    --light: #f8fafc;	
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
