@@ -1,8 +1,8 @@
 :root {
-    --primary: #0f172a;
-    --secundary: #696969;
-    --acent: #836FFF;
-    --light: #f8fafc;	
+    --letra: #ffffff;
+    --texto: #a0a0a0;
+    --borda: #ffffff;
+    --fundo: #383838;
 }
 
 * {
@@ -10,3 +10,67 @@
     padding: 0;
     box-sizing: 0;
 }
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: var(--fundo);
+    color: var(--letra);
+    line-height: 1.6;
+    padding: 1rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+
+p {
+    color: var(--texto);
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+
+li {
+    background: var(--borda); 
+    padding: 1rem;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 1rem;
+   
+}
+
+table {
+    margin:auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.5rem;
+
+    fieldset {
+        border: 0;       
+
+        display: flex;
+        flex-direction: column;
+    }
+}
+
