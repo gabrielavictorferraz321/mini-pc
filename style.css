@@ -29,12 +29,11 @@ header img {
     height: 100px;
 }
 
-
 p {
     color: var(--texto);
 }
 
-main {
+main, nav {
     max-width: 700px;
     margin: 0 auto;
 }
@@ -48,9 +47,11 @@ li {
     background: var(--borda); 
     padding: 1rem;
     list-style: none;
+    color: black;
     border: 1px solid black;
     border-radius: 1rem;
-   
+    box-shadow: 10px 10px 5px black;
+    text-align: center;
 }
 
 table {
@@ -68,9 +69,27 @@ form {
 
     fieldset {
         border: 0;       
-
         display: flex;
         flex-direction: column;
     }
 }
 
+.links h2 {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+ul {
+    font-family: "Segoe UI", sans-serif;
+    background: var(--fundo);
+    color: var(--letra);
+    line-height: 1.6;
+    padding: 1rem;
+}
+
+footer {
+    text-align: center;
+}
